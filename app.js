@@ -11,8 +11,8 @@ const server = http.createServer((req, res) => {
   res.end('Bot is running!');
 });
 
-server.listen(8080, () => {
-  console.log('Server running at http://localhost:8080');
+server.listen(80, () => {
+  console.log('Server running at http://localhost:80');
 });
 
 bot.on('text', (msg) => {
